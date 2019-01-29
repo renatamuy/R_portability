@@ -8,6 +8,6 @@ script_needed_packages.R
 
 # Updating R
 
-  require(installR)
+```require(installR)
 
-  updateR()
+  updateR()```
