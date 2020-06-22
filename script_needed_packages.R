@@ -1,8 +1,5 @@
-
 # Saving list of needed packages
 
-files_list <- dir("C://Users//renatamuy//Documents//R//win-library//3.4//", pattern="")
+files_list <- dir("C:/Users/rdelaram/Documents/R/win-library/3.6/", pattern="")
 
-dput(as.character(files_list))
-
-write.table(dput(as.character(files_list)) , "c vector of needed R packages.txt", quote=TRUE, sep = ",", row.names = FALSE)
+dput(as.character(files_list)) # copy that from the console and paste in next script
